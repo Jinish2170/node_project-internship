@@ -5,12 +5,11 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
-    "dev": "nodemon server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/server.js",
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
-    "dev:server": "nodemon server/server.js",
-    "dev:client": "cd client && npm start",
-    "dev:all": "concurrently \"npm run dev:server\" \"npm run dev:client\""
+    "install-deps": "npm install && cd client && npm install"
   },
   "keywords": ["campus", "education", "students", "faculty", "academic"],
   "author": "Your Name",
@@ -21,7 +20,7 @@
     "helmet": "^7.0.0",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "multer": "^1.4.5",
+    "multer": "^1.4.4",
     "joi": "^17.9.2",
     "dotenv": "^16.3.1"
   },
