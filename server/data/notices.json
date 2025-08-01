@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1640995200000",
+    "title": "Welcome to CampusConnect",
+    "content": "We are excited to launch CampusConnect - your centralized platform for academic resources, notices, events, and more. Please explore all the features and provide your feedback.",
+    "category": "general",
+    "targetAudience": "all",
+    "department": null,
+    "expiryDate": null,
+    "author": {
+      "id": "admin001",
+      "name": "System Administrator",
+      "role": "admin"
+    },
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "1640995260000",
+    "title": "Mid-Semester Examination Schedule",
+    "content": "The mid-semester examinations will be conducted from March 15-22, 2024. Please check your individual timetables on the academic portal. All students are required to carry their ID cards during examinations.",
+    "category": "academic",
+    "targetAudience": "students",
+    "department": null,
+    "expiryDate": "2024-03-25T00:00:00.000Z",
+    "author": {
+      "id": "faculty001",
+      "name": "Dr. Academic Officer",
+      "role": "faculty"
+    },
+    "createdAt": "2024-02-01T00:00:00.000Z",
+    "updatedAt": "2024-02-01T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "1640995320000",
+    "title": "Library Hours Extended",
+    "content": "Due to upcoming examinations, library hours have been extended. The library will now be open from 7:00 AM to 11:00 PM on weekdays and 8:00 AM to 8:00 PM on weekends until further notice.",
+    "category": "general",
+    "targetAudience": "all",
+    "department": null,
+    "expiryDate": null,
+    "author": {
+      "id": "faculty002",
+      "name": "Librarian",
+      "role": "faculty"
+    },
+    "createdAt": "2024-02-15T00:00:00.000Z",
+    "updatedAt": "2024-02-15T00:00:00.000Z",
+    "isActive": true
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1641081600000",
+    "title": "Tech Fest 2024",
+    "description": "Annual technical festival featuring coding competitions, robotics workshops, and tech talks by industry experts.",
+    "date": "2024-04-15",
+    "time": "09:00",
+    "venue": "Main Auditorium",
+    "category": "academic",
+    "organizer": "Computer Science Department",
+    "maxParticipants": 500,
+    "registrationRequired": true,
+    "image": null,
+    "author": {
+      "id": "faculty003",
+      "name": "Dr. Tech Head",
+      "role": "faculty"
+    },
+    "participants": [],
+    "createdAt": "2024-02-01T00:00:00.000Z",
+    "updatedAt": "2024-02-01T00:00:00.000Z"
+  },
+  {
+    "id": "1641168000000",
+    "title": "Career Guidance Seminar",
+    "description": "Interactive session with industry professionals discussing career opportunities in various fields.",
+    "date": "2024-03-20",
+    "time": "14:00",
+    "venue": "Conference Hall",
+    "category": "seminar",
+    "organizer": "Placement Cell",
+    "maxParticipants": 200,
+    "registrationRequired": true,
+    "image": null,
+    "author": {
+      "id": "faculty004",
+      "name": "Placement Officer",
+      "role": "faculty"
+    },
+    "participants": [],
+    "createdAt": "2024-02-10T00:00:00.000Z",
+    "updatedAt": "2024-02-10T00:00:00.000Z"
+  },
+  {
+    "id": "1641254400000",
+    "title": "Cultural Night",
+    "description": "Celebrate diversity with performances, food stalls, and cultural activities from different regions.",
+    "date": "2024-03-25",
+    "time": "18:00",
+    "venue": "Open Air Theatre",
+    "category": "cultural",
+    "organizer": "Cultural Committee",
+    "maxParticipants": null,
+    "registrationRequired": false,
+    "image": null,
+    "author": {
+      "id": "student001",
+      "name": "Cultural Secretary",
+      "role": "student"
+    },
+    "participants": [],
+    "createdAt": "2024-02-15T00:00:00.000Z",
+    "updatedAt": "2024-02-15T00:00:00.000Z"
+  }
+]
